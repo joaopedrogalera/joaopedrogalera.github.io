@@ -36,7 +36,7 @@ nav ul{
 }
 
 nav ul li{
-  width: 33%;
+  width: 25%;
   float: left;
   text-align: center;
 }
@@ -65,4 +65,8 @@ nav ul li a:hover{
 
 .fa.fa-instagram::before{
   content: '\f16d';
+}
+
+.fa.fa-github::before{
+  content: '\f09b';
 }

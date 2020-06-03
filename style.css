@@ -1,0 +1,68 @@
+@font-face {
+  font-family: 'Font Awesome 5 Brands';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("webfonts/fa-brands-400.eot");
+  src: url("webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("webfonts/fa-brands-400.woff2") format("woff2"), url("webfonts/fa-brands-400.woff") format("woff"), url("webfonts/fa-brands-400.ttf") format("truetype"), url("webfonts/fa-brands-400.svg#fontawesome") format("svg");
+}
+
+html{
+  height: 100%;
+}
+
+body{
+  background-color: #FF3CAC;
+  background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.header{
+  width: 100%;
+  height: 100%;
+  max-width: 600px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 40px;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li{
+  width: 33%;
+  float: left;
+  text-align: center;
+}
+
+nav ul li a{
+  color: inherit;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
+.fa{
+  font-family: 'Font Awesome 5 Brands';
+}
+
+.fa.fa-twitter::before{
+  content: '\f099';
+}
+
+.fa.fa-facebook::before{
+  content: '\f09a';
+}
+
+.fa.fa-instagram::before{
+  content: '\f16d';
+}
